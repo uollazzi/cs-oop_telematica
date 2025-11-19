@@ -14,7 +14,7 @@ public class Cestista : Persona, ITrasferibile
     public int Numero { get; set; }
 
     private DateTime? _DataUltimoTrasferimento;
-    public DateTime? DataUltimoTrasferimento => throw new NotImplementedException();
+    public DateTime? DataUltimoTrasferimento { get => _DataUltimoTrasferimento; }
 
     public bool Tira()
     {
@@ -39,5 +39,6 @@ public class Cestista : Persona, ITrasferibile
     public void TrasferiscimiA(string nuovaSquadra)
     {
         Squadra = nuovaSquadra;
+        _DataUltimoTrasferimento = DateTime.Now;
     }
 }
