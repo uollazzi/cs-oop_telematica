@@ -1,6 +1,8 @@
+using cs_oop.Interfaces;
+
 namespace cs_oop.Models;
 
-public class Cestista : Persona
+public class Cestista : Persona, ITrasferibile
 {
     public Cestista()
     {
@@ -10,6 +12,9 @@ public class Cestista : Persona
     public string Squadra { get; set; } = string.Empty;
 
     public int Numero { get; set; }
+
+    private DateTime? _DataUltimoTrasferimento;
+    public DateTime? DataUltimoTrasferimento => throw new NotImplementedException();
 
     public bool Tira()
     {
@@ -29,5 +34,10 @@ public class Cestista : Persona
         saluto += $"\nGioco nei {Squadra} col numero {Numero}";
 
         return saluto;
+    }
+
+    public void TrasferiscimiA(string nuovaSquadra)
+    {
+        Squadra = nuovaSquadra;
     }
 }
