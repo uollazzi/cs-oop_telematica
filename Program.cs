@@ -37,7 +37,27 @@ class Program
         gigi.IMieiAnimali.Add(fufi);
         gigi.IMieiAnimali.Add(new Animale("Puffo", "Gatto"));
 
+
         // esercizio Indirizzo
+        // definite la classe Indirizzo (indirizzo di spedizione)
+
+
+        // assegnazione veloce dei valori delle proprietà
+        var indirizzo = new Indirizzo()
+        {
+            Via = "Via della Libertà",
+            Civico = "456",
+            CAP = "87987",
+            Provincia = "NA",
+            Citta = "Procida",
+            Stato = "Italia"
+        };
+
+        Console.WriteLine(indirizzo.IndirizzoCompleto);
+        Console.WriteLine(indirizzo.ToString());
+
+        anna.Residenza = indirizzo;
+
     }
 }
 

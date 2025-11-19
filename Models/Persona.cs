@@ -88,4 +88,8 @@ public class Persona
     }
 
     public List<Animale> IMieiAnimali { get; set; } = [];
+
+    public Indirizzo Residenza { get; set; }
+
+    public List<Indirizzo> IndirizziDiSpedizione { get; set; }
 }
