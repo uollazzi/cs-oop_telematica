@@ -56,7 +56,7 @@ public class Persona
 
     // metodi
     // sono funzioni
-    public string Saluta(string tipoSaluto, string punteggiatura)
+    public virtual string Saluta(string tipoSaluto, string punteggiatura)
     {
         return $"{tipoSaluto}, sono {NomeCompleto} e ho {Eta} anni{punteggiatura}";
     }
