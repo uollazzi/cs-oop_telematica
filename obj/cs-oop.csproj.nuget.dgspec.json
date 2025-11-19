@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\cs-oop.csproj": {}
+    "c:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\cs-oop.csproj": {}
   },
   "projects": {
-    "C:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\cs-oop.csproj": {
+    "c:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\cs-oop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\cs-oop.csproj",
+        "projectUniqueName": "c:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\cs-oop.csproj",
         "projectName": "cs-oop",
-        "projectPath": "C:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\cs-oop.csproj",
+        "projectPath": "c:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\cs-oop.csproj",
         "packagesPath": "C:\\Users\\dillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\obj\\",
+        "outputPath": "c:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
