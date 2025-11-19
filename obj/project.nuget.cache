@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pRnsvPNCv8U=",
+  "dgSpecHash": "JsjWNlmjHfg=",
   "success": true,
   "projectFilePath": "C:\\Progetti\\Tutorials\\Planet\\dotNET\\cs-oop\\cs-oop.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dillo\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
